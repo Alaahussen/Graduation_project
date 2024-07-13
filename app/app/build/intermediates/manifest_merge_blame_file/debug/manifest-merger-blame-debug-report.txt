@@ -1,0 +1,416 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.pytorch.demo.objectdetection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:5:5-71
+11-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:5:22-68
+12    **
+13    <queries>
+13-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:6:7-10:11
+14        <intent>
+14-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:7:5-9:14
+15            <action android:name="android.speech.RecognitionService" />
+15-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:8:9-68
+15-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:8:17-65
+16        </intent>
+17    </queries>
+18**
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:13:5-81
+19-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:13:22-78
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:14:5-80
+20-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:14:22-77
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:15:5-65
+21-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:15:22-62
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:16:5-67
+22-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:16:22-64
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:24:5-79
+23-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:24:22-76
+24
+25    <permission
+25-->[androidx.core:core:1.9.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\784a72afc5c4507f54f2dda3c3b5d24a\core-1.9.0\AndroidManifest.xml:22:5-24:47
+26        android:name="org.pytorch.demo.objectdetection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.9.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\784a72afc5c4507f54f2dda3c3b5d24a\core-1.9.0\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.9.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\784a72afc5c4507f54f2dda3c3b5d24a\core-1.9.0\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="org.pytorch.demo.objectdetection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.9.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\784a72afc5c4507f54f2dda3c3b5d24a\core-1.9.0\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.9.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\784a72afc5c4507f54f2dda3c3b5d24a\core-1.9.0\AndroidManifest.xml:26:22-94
+30
+31    <application
+31-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:18:5-90:19
+32        android:allowBackup="true"
+32-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:19:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.9.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\784a72afc5c4507f54f2dda3c3b5d24a\core-1.9.0\AndroidManifest.xml:28:18-86
+34        android:debuggable="true"
+35        android:extractNativeLibs="false"
+36        android:icon="@mipmap/ic_launcher"
+36-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:20:9-43
+37        android:label="Speakd"
+37-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:21:9-31
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:22:9-54
+39        android:supportsRtl="true"
+39-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:23:9-35
+40        android:theme="@style/AppTheme" >
+40-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:24:9-40
+41        <activity
+41-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:25:9-31:20
+42            android:name="org.pytorch.demo.objectdetection.HomeActivity"
+42-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:26:13-41
+43            android:exported="false" >
+43-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:27:13-37
+44            <meta-data
+44-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:28:13-30:36
+45                android:name="android.app.lib_name"
+45-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:29:17-52
+46                android:value="" />
+46-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:30:17-33
+47        </activity>
+48        <activity
+48-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:32:9-38:20
+49            android:name="org.pytorch.demo.objectdetection.PasswardRecoveryActivity"
+49-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:33:13-53
+50            android:exported="false" >
+50-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:34:13-37
+51            <meta-data
+51-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:28:13-30:36
+52                android:name="android.app.lib_name"
+52-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:29:17-52
+53                android:value="" />
+53-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:30:17-33
+54        </activity>
+55        <activity
+55-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:39:9-45:20
+56            android:name="org.pytorch.demo.objectdetection.RegisterActivity"
+56-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:40:13-45
+57            android:exported="false" >
+57-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:41:13-37
+58            <meta-data
+58-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:28:13-30:36
+59                android:name="android.app.lib_name"
+59-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:29:17-52
+60                android:value="" />
+60-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:30:17-33
+61        </activity>
+62        <activity
+62-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:46:9-52:20
+63            android:name="org.pytorch.demo.objectdetection.LoginAcivity"
+63-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:47:13-41
+64            android:exported="false" >
+64-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:48:13-37
+65            <meta-data
+65-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:28:13-30:36
+66                android:name="android.app.lib_name"
+66-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:29:17-52
+67                android:value="" />
+67-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:30:17-33
+68        </activity>
+69        <activity
+69-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:53:9-65:20
+70            android:name="org.pytorch.demo.objectdetection.FirstActivity_1"
+70-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:54:13-44
+71            android:exported="true" >
+71-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:55:13-36
+72            <meta-data
+72-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:28:13-30:36
+73                android:name="android.app.lib_name"
+73-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:29:17-52
+74                android:value="" />
+74-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:30:17-33
+75
+76            <intent-filter>
+76-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:60:13-64:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:61:17-69
+77-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:61:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:63:17-77
+79-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:63:27-74
+80            </intent-filter>
+81        </activity>
+82        <activity
+82-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:66:9-72:20
+83            android:name="org.pytorch.demo.objectdetection.FirstActivity"
+83-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:67:13-42
+84            android:exported="true" >
+84-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:68:13-36
+85            <meta-data
+85-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:28:13-30:36
+86                android:name="android.app.lib_name"
+86-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:29:17-52
+87                android:value="" />
+87-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:30:17-33
+88        </activity>
+89        <activity
+89-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:73:9-79:20
+90            android:name="org.pytorch.demo.objectdetection.MainActivity2"
+90-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:74:13-42
+91            android:exported="true" >
+91-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:75:13-36
+92            <meta-data
+92-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:28:13-30:36
+93                android:name="android.app.lib_name"
+93-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:29:17-52
+94                android:value="" />
+94-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:30:17-33
+95        </activity>
+96        <activity
+96-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:80:9-84:52
+97            android:name="org.pytorch.demo.objectdetection.MainActivity"
+97-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:81:13-41
+98            android:configChanges="orientation"
+98-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:82:13-48
+99            android:exported="true"
+99-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:83:13-36
+100            android:screenOrientation="portrait" />
+100-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:84:13-49
+101        <activity
+101-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:85:9-89:52
+102            android:name="org.pytorch.demo.objectdetection.ObjectDetectionActivity"
+102-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:86:13-52
+103            android:configChanges="orientation"
+103-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:87:13-48
+104            android:exported="true"
+104-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:88:13-36
+105            android:screenOrientation="portrait" />
+105-->E:\yolo projects\default Asl model\finsh\new_finish\ObjectDetection\app\src\main\AndroidManifest.xml:89:13-49
+106        <activity
+106-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:27:9-34:50
+107            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+107-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:28:13-85
+108            android:excludeFromRecents="true"
+108-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:29:13-46
+109            android:exported="true"
+109-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:30:13-36
+110            android:launchMode="singleTask"
+110-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:31:13-44
+111            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+111-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:32:13-102
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+112-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:33:13-72
+113        <activity
+113-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:35:9-52:20
+114            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+114-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:36:13-80
+115            android:excludeFromRecents="true"
+115-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:37:13-46
+116            android:exported="true"
+116-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:38:13-36
+117            android:launchMode="singleTask"
+117-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:39:13-44
+118            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+118-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:40:13-72
+119            <intent-filter>
+119-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:41:13-51:29
+120                <action android:name="android.intent.action.VIEW" />
+120-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:42:17-69
+120-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:42:25-66
+121
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:17-76
+122-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:27-73
+123                <category android:name="android.intent.category.BROWSABLE" />
+123-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:45:17-78
+123-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:45:27-75
+124
+125                <data
+125-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:47:17-50:51
+126                    android:host="firebase.auth"
+126-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:48:21-49
+127                    android:path="/"
+127-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:49:21-37
+128                    android:scheme="genericidp" />
+128-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:50:21-48
+129            </intent-filter>
+130        </activity>
+131        <activity
+131-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:53:9-70:20
+132            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+132-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:54:13-79
+133            android:excludeFromRecents="true"
+133-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:55:13-46
+134            android:exported="true"
+134-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:56:13-36
+135            android:launchMode="singleTask"
+135-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:57:13-44
+136            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+136-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:58:13-72
+137            <intent-filter>
+137-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:59:13-69:29
+138                <action android:name="android.intent.action.VIEW" />
+138-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:42:17-69
+138-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:42:25-66
+139
+140                <category android:name="android.intent.category.DEFAULT" />
+140-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:17-76
+140-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:27-73
+141                <category android:name="android.intent.category.BROWSABLE" />
+141-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:45:17-78
+141-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:45:27-75
+142
+143                <data
+143-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:47:17-50:51
+144                    android:host="firebase.auth"
+144-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:48:21-49
+145                    android:path="/"
+145-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:49:21-37
+146                    android:scheme="recaptcha" />
+146-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:50:21-48
+147            </intent-filter>
+148        </activity>
+149
+150        <service
+150-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:72:9-81:19
+151            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+151-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:73:13-101
+152            android:enabled="true"
+152-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:74:13-35
+153            android:exported="false" >
+153-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:75:13-37
+154            <intent-filter>
+154-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:76:13-80:29
+155                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+155-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:77:17-89
+155-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:77:25-86
+156
+157                <category android:name="android.intent.category.DEFAULT" />
+157-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:17-76
+157-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:27-73
+158            </intent-filter>
+159        </service>
+160        <service
+160-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:82:9-88:19
+161            android:name="com.google.firebase.components.ComponentDiscoveryService"
+161-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:83:13-84
+162            android:directBootAware="true"
+162-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+163            android:exported="false" >
+163-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:84:13-37
+164            <meta-data
+164-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:85:13-87:85
+165                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+165-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:86:17-109
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\fc3055a6b7c77b54386e0d7e35dc9085\jetified-firebase-auth-20.0.0\AndroidManifest.xml:87:17-82
+167            <meta-data
+167-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\1f2f867452b9c3118bdeb1f9e03f089b\jetified-firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
+168                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+168-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\1f2f867452b9c3118bdeb1f9e03f089b\jetified-firebase-database-20.0.0\AndroidManifest.xml:33:17-109
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\1f2f867452b9c3118bdeb1f9e03f089b\jetified-firebase-database-20.0.0\AndroidManifest.xml:34:17-82
+170            <meta-data
+170-->[com.google.firebase:firebase-firestore:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\1dd5010e762857856baa62035b09bd57\jetified-firebase-firestore-20.0.0\AndroidManifest.xml:20:13-22:85
+171                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+171-->[com.google.firebase:firebase-firestore:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\1dd5010e762857856baa62035b09bd57\jetified-firebase-firestore-20.0.0\AndroidManifest.xml:21:17-111
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-firestore:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\1dd5010e762857856baa62035b09bd57\jetified-firebase-firestore-20.0.0\AndroidManifest.xml:22:17-82
+173        </service>
+174
+175        <activity
+175-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\02014ff66b2d04ae27ec314bba23a7bb\jetified-play-services-auth-20.0.0\AndroidManifest.xml:23:9-27:75
+176            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+176-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\02014ff66b2d04ae27ec314bba23a7bb\jetified-play-services-auth-20.0.0\AndroidManifest.xml:24:13-93
+177            android:excludeFromRecents="true"
+177-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\02014ff66b2d04ae27ec314bba23a7bb\jetified-play-services-auth-20.0.0\AndroidManifest.xml:25:13-46
+178            android:exported="false"
+178-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\02014ff66b2d04ae27ec314bba23a7bb\jetified-play-services-auth-20.0.0\AndroidManifest.xml:26:13-37
+179            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+179-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\02014ff66b2d04ae27ec314bba23a7bb\jetified-play-services-auth-20.0.0\AndroidManifest.xml:27:13-72
+180        <!--
+181            Service handling Google Sign-In user revocation. For apps that do not integrate with
+182            Google Sign-In, this service will never be started.
+183        -->
+184        <service
+184-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\02014ff66b2d04ae27ec314bba23a7bb\jetified-play-services-auth-20.0.0\AndroidManifest.xml:33:9-37:51
+185            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+185-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\02014ff66b2d04ae27ec314bba23a7bb\jetified-play-services-auth-20.0.0\AndroidManifest.xml:34:13-89
+186            android:exported="true"
+186-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\02014ff66b2d04ae27ec314bba23a7bb\jetified-play-services-auth-20.0.0\AndroidManifest.xml:35:13-36
+187            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+187-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\02014ff66b2d04ae27ec314bba23a7bb\jetified-play-services-auth-20.0.0\AndroidManifest.xml:36:13-107
+188            android:visibleToInstantApps="true" />
+188-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\02014ff66b2d04ae27ec314bba23a7bb\jetified-play-services-auth-20.0.0\AndroidManifest.xml:37:13-48
+189
+190        <provider
+190-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\8fa0135bb8b6d127351601c62222ea9f\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:25:9-30:43
+191            android:name="androidx.camera.camera2.impl.Camera2Initializer"
+191-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\8fa0135bb8b6d127351601c62222ea9f\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:26:13-75
+192            android:authorities="org.pytorch.demo.objectdetection.camerax-init"
+192-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\8fa0135bb8b6d127351601c62222ea9f\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:27:13-64
+193            android:exported="false"
+193-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\8fa0135bb8b6d127351601c62222ea9f\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:28:13-37
+194            android:initOrder="100"
+194-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\8fa0135bb8b6d127351601c62222ea9f\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:29:13-36
+195            android:multiprocess="true" />
+195-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\8fa0135bb8b6d127351601c62222ea9f\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:30:13-40
+196
+197        <activity
+197-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\ede1ff52cad19db60e9a9ce2fc9e680c\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+198            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+198-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\ede1ff52cad19db60e9a9ce2fc9e680c\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+199            android:exported="false"
+199-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\ede1ff52cad19db60e9a9ce2fc9e680c\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+200            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+200-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\ede1ff52cad19db60e9a9ce2fc9e680c\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+201
+202        <provider
+202-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+203            android:name="com.google.firebase.provider.FirebaseInitProvider"
+203-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+204            android:authorities="org.pytorch.demo.objectdetection.firebaseinitprovider"
+204-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+205            android:directBootAware="true"
+205-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+206            android:exported="false"
+206-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+207            android:initOrder="100" />
+207-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+208
+209        <meta-data
+209-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\d0a968e5f7efd732245bfc8c7d7c12c1\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+210            android:name="com.google.android.gms.version"
+210-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\d0a968e5f7efd732245bfc8c7d7c12c1\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+211            android:value="@integer/google_play_services_version" />
+211-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\d0a968e5f7efd732245bfc8c7d7c12c1\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+212
+213        <provider
+213-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\7f5b2a72f043e8948e7b1f7118499931\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+214            android:name="androidx.startup.InitializationProvider"
+214-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\7f5b2a72f043e8948e7b1f7118499931\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+215            android:authorities="org.pytorch.demo.objectdetection.androidx-startup"
+215-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\7f5b2a72f043e8948e7b1f7118499931\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+216            android:exported="false" >
+216-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\7f5b2a72f043e8948e7b1f7118499931\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+217            <meta-data
+217-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\7f5b2a72f043e8948e7b1f7118499931\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+218                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+218-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\7f5b2a72f043e8948e7b1f7118499931\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+219                android:value="androidx.startup" />
+219-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\7f5b2a72f043e8948e7b1f7118499931\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+220            <meta-data
+220-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\9871e4bcdcb2fd92d2ff795ff520ce4f\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+221                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+221-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\9871e4bcdcb2fd92d2ff795ff520ce4f\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+222                android:value="androidx.startup" />
+222-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Pro\.gradle\caches\transforms-2\files-2.1\9871e4bcdcb2fd92d2ff795ff520ce4f\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+223        </provider>
+224    </application>
+225
+226</manifest>
