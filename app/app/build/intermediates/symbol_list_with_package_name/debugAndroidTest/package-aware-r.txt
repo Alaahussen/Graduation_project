@@ -1,3 +1,0 @@
-org.pytorch.demo.objectdetection.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
