@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1077814046838",
+    "project_id": "login-b23ff",
+    "storage_bucket": "login-b23ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077814046838:android:fe3318a4a08e682eb06f57",
+        "android_client_info": {
+          "package_name": "org.pytorch.demo.objectdetection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqrw6vGoFiTF9G__GGybk14vD8fNhuYo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
