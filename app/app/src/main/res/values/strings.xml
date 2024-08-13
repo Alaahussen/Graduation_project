@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">YOLOv5</string>
+    <string name="image_view">Image View</string>
+    <string name="detect">Detect</string>
+    <string name="run_model">Running the model...</string>
+    <string name="restart">Restart</string>
+    <string name="select">Select</string>
+    <string name="live">Live</string>
+    <string name="but">butt</string>
+    <string name="start_listening">start listening</string>
+    <string name="button">Button</string>
+</resources>
